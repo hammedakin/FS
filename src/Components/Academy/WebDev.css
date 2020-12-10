@@ -1,0 +1,115 @@
+/* WebDev */
+
+.webdev .col-md-7, .col-md-5 {
+
+  padding-right: 0px!important;
+padding-left: 0px!important;
+}
+
+.webdev .row-text {
+    background-color: #171c58bd ;
+    
+
+    color: #ffffff;
+  }
+  .webdev .row-text{
+   padding: 2rem 5rem!important;
+   font-size: 120%;
+  } 
+  
+  .webdev .row-text h4, .webdev h3  {
+    color: #ff9a41;
+  }
+  
+  .webdev img {
+    transform: translateX(70px);
+    width: 120%;
+  }
+
+  .webdev .col-md-4 {
+    align-self: center!important;
+    z-index: 1;
+    }
+  
+  
+
+  .webdev ul {
+    list-style: none;
+  }
+  
+  .webdev li {
+    padding-top: 0.6rem;
+  }
+  
+  .webdev li::before {
+    content: "+";
+    font-size: 20px;
+    font-weight: 900;
+    color: #ff9a41;
+  }
+
+  
+  /* Web Dev */
+
+
+/* Media Query for Tab device */
+/* Media Query for Tab device */
+
+@media screen and (max-width: 1200px) {
+
+  .webdev .row-text{
+    padding: 2rem 4rem!important;
+   }
+   
+
+    }
+    
+    
+    /* Media Query for Tab  device */
+    /* Media Query for Tab device */
+
+  /* Media Query for Tab 2 device */
+/* Media Query for Tab  2 device */
+
+@media screen and (max-width: 768px) {
+  
+  /* Web Dev */
+  .webdev .row-text{
+    padding: 2rem 4rem!important;
+   }
+  
+  
+  /* Web Dev */
+  
+     
+    }
+    
+    
+    /* Media Query for Tab 2 device */
+    /* Media Query for Tab 2 device */
+    
+  
+  
+  /* Media Query for Mobile device */
+  /* Media Query for Mobile device */
+  
+  @media screen and (max-width: 580px) {
+ 
+     
+  /* Web Dev */
+  .webdev .row-text{
+   padding: 3rem 2rem!important;
+   
+  }
+  
+  .webdev img {
+    transform: translateX(0px);
+    width: 100%;
+  }
+  /* Web Dev */
+ 
+  }
+  
+  
+  /* Media Query for Mobile device */
+  /* Media Query for Mobile device */
