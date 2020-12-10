@@ -23,7 +23,7 @@ technology
                   KNOW MORE 
                   
                 </button> </a>
-              </div>
+              </div>lu[''/0/.]
             </div>
           </div>
         </div>
