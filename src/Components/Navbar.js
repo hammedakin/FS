@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link } from 'react-router-dom'
+import img from './FireSwitch_logo.png'
 
 
 
@@ -12,13 +13,15 @@ const Navbar = () => {
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
 
  
-<Link to="/" class="navbar-brand" >FIRESWITCH</Link>
+<Link to="/" class="" >
+  <img src={img} width="40%" class="navbar-brand" alt="FireSwitch_logo"/>
+</Link>
 
  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
     aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-  </button>
+  </button> 
 
 
   <div class="collapse navbar-collapse" id="basicExampleNav">
@@ -28,16 +31,17 @@ const Navbar = () => {
       <Link to="/" class="nav-link " href="#about">About</Link>
 
       </li>
-      <li class="nav-item">
-        <Link to="/contact" class="nav-link" >Contact</Link>
-      </li>
+    
       <li class="nav-item">
       <Link to="/academy" class="nav-link" >Academy</Link>
             </li>
             <li class="nav-item">
-      <Link to="/" class="nav-link" >Products</Link>
+      <Link to="/product" class="nav-link" >Products</Link>
             </li>
 
+            <li class="nav-item">
+        <Link to="/contact" class="nav-link" >Contact</Link>
+      </li>
 
     </ul>
  

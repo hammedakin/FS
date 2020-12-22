@@ -10,7 +10,7 @@ const ContactUs = () => {
               <div class="col-md-7 mb-4 wow animated fadeInLeft">
                 <div class="card h-100">
                   <h4 class="card-header text-center py-4">
-                    <strong>CONTACT US</strong>
+                    <strong>Contact Us</strong>
                   </h4>
                   <div class="text-center mt-3 px-4">
                     <div class="">
@@ -79,7 +79,7 @@ const ContactUs = () => {
               <div class="col-md-5 mb-4 wow animated fadeInRight">
                 <div class="card h-100">
                   <h5 class="card-header  text-center py-4">
-                    <strong>GET IN TOUCH</strong>
+                    <strong>Feel Free to write to Us.</strong>
                   </h5>
 
                   <div class="card-body px-lg-5 pt-0">

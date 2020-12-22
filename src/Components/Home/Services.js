@@ -9,10 +9,6 @@ const Services = () => {
           <div class="mt-5 wow animated fadeInDown">
             <h3>We Provide the following Services:</h3>
 
-            {/* <p class="mt-2 ">
-              {" "}
-        The application of tech tools, and digital technology to business and processes yields far more better than results. 
-</p> */}
           </div>
 
           <div class="mt-5">

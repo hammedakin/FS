@@ -33,6 +33,15 @@ const SocialMedia = () => {
                 tabindex="0"
               ></iframe>
             </div>
+
+            <div class="col-md-6">
+            <a class="twitter-timeline"
+             data-width="500"
+             data-height="500"
+             data-theme="dark"
+            href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            
           </div>
         </div>
       </section>
