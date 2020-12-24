@@ -7,6 +7,7 @@ import AcademyPage from './Pages/AcademyPage'
 import ContactPage from './Pages/ContactPage';
 import EnrolForm from './Components/Academy/EnrolForm';
 import ProductPage from './Pages/ProductPage';
+import Portfolio from './Components/Home/Portfolio';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
       <Route exact path="/enrol" component={EnrolForm}/>
 
       <Route exact path="/product" component={ProductPage}/>
+
+      <Route exact path="/portfolio" component={Portfolio}/>
       </Switch>
     
     </BrowserRouter>

@@ -12,11 +12,10 @@ const Navbar = () => {
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
 
- 
-<Link to="/" class="" >
-  <img src={img} width="40%" class="navbar-brand" alt="FireSwitch_logo"/>
-</Link>
 
+<Link to="/" className="navbar-brand" >
+<img src={img} class=" " width="50%"  alt="FireSwitch_logo"/>
+</Link>
  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
     aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,17 +26,19 @@ const Navbar = () => {
   <div class="collapse navbar-collapse" id="basicExampleNav">
 
     <ul class="navbar-nav ml-auto text-center">
-      <li class="nav-item active show">
-      <Link to="/" class="nav-link " href="#about">About</Link>
-
-      </li>
     
-      <li class="nav-item">
+    
+      <li class="nav-item active show">
       <Link to="/academy" class="nav-link" >Academy</Link>
             </li>
             <li class="nav-item">
       <Link to="/product" class="nav-link" >Products</Link>
             </li>
+
+            <li class="nav-item ">
+      <Link to="/portfolio" class="nav-link">Our Portfolio</Link>
+
+      </li>
 
             <li class="nav-item">
         <Link to="/contact" class="nav-link" >Contact</Link>
