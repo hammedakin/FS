@@ -11,8 +11,8 @@ const WebDev = () => {
           <div class="row">
             <div class="col-md-4 text-center h-100">
               <div class=" ">
-                <div class="">
-                  <h3 style={{ fontWeight: "600" }}> Web Development</h3>
+                <div class="text-center">
+                  <h3 style={{ fontWeight: "600", color: "green", textAlign: "center!important" }}> Web Development</h3>
                 </div>
 
                 <div class="animated fadeInLeft">

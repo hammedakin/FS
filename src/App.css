@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body {
-  background-color: #ffffff;
+  background-color: #f5f3f3!important;
   margin: 0 auto;
   color: white;
   line-height: 1.6;
@@ -237,6 +237,45 @@ font-weight: 500;
 /* Enrol Formm */
 
 
+/* Portfolio */
+.portfolio  {
+  margin-top: 4rem;
+}
+
+.portfolio small{
+color: #323982!important;
+font-weight: 600;
+font-size: 15px;
+}
+.portfolio .card {
+  border-radius: 30px 0 30px 0 ;
+  align-items: center!important;
+}
+
+/* .portfolio .col-lg-6 {
+padding-left: 5rem;
+} */
+
+.portfolio .card .row{
+  align-items: center!important;
+  background-color: #ff9a41;
+  border: 0!important;
+  border-radius: 30px 0 30px 0 ;
+}
+
+
+.portfolio .card .col-6.col1{
+padding: 0;
+}
+
+.portfolio .col-6.col2 {
+  padding-bottom: 10rem;
+  background-color: white;
+  border-radius: 0px 0 25px 0 ;
+}
+/* Portfolio */
+
+
 /* Contact US */
 #contact {
   margin-top: 3rem;
@@ -289,7 +328,7 @@ font-weight: 500;
 }
 
 .socials .box-icon {
-  margin-left: 1rem;
+  margin-left: -1rem;
   padding: 0.4rem;
   text-align: center !important;
   background-color: #2c1603;
@@ -374,6 +413,8 @@ footer .box-icon:hover {
 
 @media screen and (max-width: 1200px) {
 
+
+
 /* Showcase */
   
 .showcase {
@@ -429,6 +470,8 @@ footer .box-icon:hover {
   padding: 0rem;
   }
   /* Who we are */
+
+ 
 
 }
 

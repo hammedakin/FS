@@ -7,7 +7,7 @@ import AcademyPage from './Pages/AcademyPage'
 import ContactPage from './Pages/ContactPage';
 import EnrolForm from './Components/Academy/EnrolForm';
 import ProductPage from './Pages/ProductPage';
-import Portfolio from './Components/Home/Portfolio';
+import PortfolioPage from './Pages/PortfolioPage';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
 
       <Route exact path="/product" component={ProductPage}/>
 
-      <Route exact path="/portfolio" component={Portfolio}/>
+      <Route exact path="/portfolio" component={PortfolioPage}/>
       </Switch>
     
     </BrowserRouter>
