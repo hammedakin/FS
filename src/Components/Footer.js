@@ -1,4 +1,5 @@
 import React from "react";
+import img from './FS_logo.png'
 
 const Footer = () => {
   return (
@@ -12,6 +13,9 @@ const Footer = () => {
                   <h5 class=" text-uppercase mt-3 mb-4">
                     FIRESWITCH
                   </h5>
+                  <div class="">
+                    <img src={img} width="" alt="FireSwitch Logo"/>
+                  </div>
                   <p>
                     Here you can use rows and columns to organize your footer
                     content. Lorem ipsum dolor sit amet, consectetur adipisicing
