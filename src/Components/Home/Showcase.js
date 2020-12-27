@@ -10,7 +10,7 @@ const Showcase = () => {
               <div class="col-md-9 animated fadeInLeft">
                 <h1 class="text-left "> Innovation With Digital Tech Tools</h1>
 
-                <div class="hide">
+                <div class="">
                   <p>
                     {" "}
                     We are great at solving business problems with technology
@@ -20,12 +20,6 @@ const Showcase = () => {
                     of your business.
                   </p>
 
-                  <a href="#service">
-                    {" "}
-                    <button type="button" class="btn">
-                      KNOW MORE
-                    </button>{" "}
-                  </a>
                 </div>
               </div>
             </div>

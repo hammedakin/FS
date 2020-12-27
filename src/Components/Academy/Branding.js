@@ -5,7 +5,7 @@ import img from "./img/branding.jpg";
 
 const Branding = () => {
   return (
-    <>
+    <> 
       <section class="branding mt-5">
         <div class="">
           <div class="row">
@@ -14,21 +14,19 @@ const Branding = () => {
                 <div class="text-justify">
                   <div class="">
                     <h6>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                     There are businesses out there who are doing great work but no one knows about them. The point of this course is to show you how you can help them using the following
                     </h6>
                   </div>
 
-                  <div class="">
+                  <div class="py-3">
                     <ul>
-                      <li> HTML</li>
-                      <li> CSS</li>
-                      <li> BOOTSTRAP</li>
-                      <li> JAVASCRIPT</li>
-                      <li> REACT / PHP</li>
-                      <li> PRODUCT DEVELOPMENT</li>
-                      <Link to="/enrol" >  <button class="btn text-center mt-4">REGISTER NOW</button> </Link>
+                      <li> Graphic Design</li>
+                      <li> Content Creation</li>
+                      <li> Social Media Management</li>
+                      <li> Ads Management</li>
+                      <li> Copy Writing</li>
+                   
+                      <Link to="/academy/enrol" >  <button class="btn text-center mt-4">REGISTER NOW</button> </Link>
                     </ul>
                   </div> 
 

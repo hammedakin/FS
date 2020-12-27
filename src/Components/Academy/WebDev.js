@@ -8,11 +8,11 @@ const WebDev = () => {
     <>
       <section class="webdev">
         <div class="">
-          <div class="row">
+          <div class="row"> 
             <div class="col-md-4 text-center h-100">
               <div class=" ">
-                <div class="text-center">
-                  <h3 style={{ fontWeight: "600", color: "green", textAlign: "center!important" }}> Web Development</h3>
+                <div class="">
+                  <h3 style={{ fontWeight: "600", textAlign: "center!important" }}> Web Development</h3>
                 </div>
 
                 <div class="animated fadeInLeft">
@@ -26,9 +26,7 @@ const WebDev = () => {
                 <div class="text-justify">
                   <div class="">
                     <h6>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                     Learning to code is as simple as ABC. With the right environment and mentors you would soon be building great websites.
                     </h6>
                   </div>
 
@@ -40,7 +38,7 @@ const WebDev = () => {
                       <li> JAVASCRIPT</li>
                       <li> REACT / PHP</li>
                       <li> PRODUCT DEVELOPMENT</li>
-                      <Link to="/enrol">
+                      <Link to="/academy/enrol">
                         {" "}
                         <button class="btn text-center mt-4">
                           REGISTER NOW

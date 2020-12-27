@@ -23,7 +23,7 @@ function App() {
 
       <Route exact path="/contact" component={ContactPage}/>
 
-      <Route exact path="/enrol" component={EnrolForm}/>
+      <Route exact path="/academy/enrol" component={EnrolForm}/>
 
       <Route exact path="/product" component={ProductPage}/>
 

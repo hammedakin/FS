@@ -3,7 +3,7 @@
 body {
   background-color: #f5f3f3!important;
   margin: 0 auto;
-  color: white;
+  color: #212557!important;
   line-height: 1.6;
   font: 400 15px/28px "Poppins", sans-serif!important;
   overflow-x: hidden!important;
@@ -158,9 +158,11 @@ font-weight: 500;
 
 
 /* Who We Are */
+.whoweare .col-md-8 {
+  background-color: #171c58bd ;  }
+
 
 .whoweare .row-text {
-  background-color: #171c58bd ;
   padding-right: 3rem;
   color: #ffffff;
 }
@@ -180,6 +182,10 @@ font-weight: 500;
 
 .whoweare .col-md-4 {
   align-self: left!important;
+  }
+
+  .whoweare .col-sm-6 {
+   margin-bottom: 3rem!important;
   }
 
 .whoweare .row-text .col-sm-4 h4 {
@@ -542,7 +548,7 @@ padding: 0rem;
 /* Who We Are */
 
 
-
+ 
    
   }
   
@@ -581,12 +587,12 @@ padding: 0rem;
 
   .showcase {
    
-    height: 50vh;
+    height: 60vh;
     
    }
    
    .showcase .showcase-content {
-     margin-top: 15vh;
+     margin-top: 10vh;
      padding: 1rem!important;
    }
 

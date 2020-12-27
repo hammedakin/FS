@@ -4,7 +4,7 @@
   background-color: #171c58bd ;
 
   color: #ffffff;
-}
+} 
 .branding .row-text{
  padding: 2rem 5rem!important;
 }
@@ -28,6 +28,7 @@
 
 .branding ul {
   list-style: none;
+  text-transform: uppercase;
 }
 
 .branding li {
