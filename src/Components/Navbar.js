@@ -1,8 +1,18 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Modal } from "react-bootstrap";
+import {Link} from 'react-router-dom'
+import AskAQuestion from '../Components/Home/AskAQuestion'
 import img from "./FireSwitch_logo.png";
 
 const Navbar = () => {
+
+// For the Ask A Question 
+const [showaaq, setShowAAQ] = useState(false);
+const handleCloseAAQ = () => setShowAAQ(false);
+const handleShowAAQ = () => setShowAAQ(true);
+
+
+
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
@@ -54,9 +64,12 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <button type="button" class="btn">
+          <button type="button" class="btn"
+           onClick={handleShowAAQ}
+           >
             Ask Question ?
           </button>
+          <AskAQuestion show={showaaq} onHide={handleCloseAAQ} animation={false}/>
         </div>
       </nav>
     </>

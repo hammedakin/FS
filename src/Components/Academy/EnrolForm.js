@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 
 const EnrolForm = () => {
+
+  const [firstname, setFirstname] = useState("")
+  const [lastname, setLastname] = useState("")
+  const [location, setLocation] = useState("")
+  const [phone, setPhone] = useState("")
+  const [email, setEmail] = useState("")
+  // const [radio, setRadio] = useState("")
+  const [message, setMessage] = useState("")
+
+
+
   return (
     <>
-      <section class="enrolform ">
+      <section class="enrolform">
         <div class="container shadow hoverable">
           <div class="text-center mb-5">
             <h4> ENROLMENT/ REGISTRATION FORM</h4>
@@ -18,6 +29,9 @@ const EnrolForm = () => {
                       class="form-control"
                       id="inlineFormInputGroup"
                       placeholder="FIRST NAME"
+                      name="firstname"
+                      value={firstname} onChange={(event) => setFirstname(event.target.value)}
+
                     />
                   </div>
                 </div>
@@ -28,6 +42,9 @@ const EnrolForm = () => {
                       class="form-control"
                       id="inlineFormInputGroup"
                       placeholder="LAST NAME"
+                      name="lastname"
+                      value={lastname} onChange={(event) => setLastname(event.target.value)}
+
                     />
                   </div>
                 </div>
@@ -38,6 +55,9 @@ const EnrolForm = () => {
                       class="form-control"
                       id="inlineFormInputGroup"
                       placeholder="LOCATION"
+                      name="location"
+                      value={location} onChange={(event) => setLocation(event.target.value)}
+
                     />
                   </div>
                 </div>
@@ -47,10 +67,13 @@ const EnrolForm = () => {
                 <div class="col-md-12">
                   <div class="input-group mb-4">
                     <input
-                      type="text"
+                      type="number"
                       class="form-control"
                       id="inlineFormInputGroup"
                       placeholder="PHONE NUMBER"
+                      name="phone"
+                      value={phone} onChange={(event) => setPhone(event.target.value)}
+
                     />
                   </div>
                 </div>
@@ -61,6 +84,8 @@ const EnrolForm = () => {
                       class="form-control"
                       id="inlineFormInputGroup"
                       placeholder="EMAIL"
+                      name="email"
+                      value={email} onChange={(event) => setEmail(event.target.value)}
                     />
                   </div>
                 </div>
@@ -119,19 +144,24 @@ const EnrolForm = () => {
                 <div class="col-md-12">
                   <div class=" mb-4">
                     <textarea
+                    type="text"
                       id="materialContactFormMessage"
                       class="form-control md-textarea"
                       rows="4"
                       placeholder="MESSAGE"
+                      name=""
+                      value={message} onChange={(event) => setMessage(event.target.value)}
+
                     ></textarea>
                   </div>
                 </div>
+                <button type="button" name="submit" class="btn px-5 mx-auto  shadow" >
+                {" "}
+               <h5>SUBMIT </h5>
+              </button>
               </div>
 
-              <button type="button" class="btn px-5  shadow">
-                {" "}
-                <strong>SUBMIT </strong>{" "}
-              </button>
+            
             </form>
           </div>
         </div>

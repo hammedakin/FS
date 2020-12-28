@@ -16,15 +16,11 @@ const Footer = () => {
                     <img src={img} width="" alt="FireSwitch Logo" />
                   </div>
                   <p>
-                    Here you can use rows and columns to organize your footer
-                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit.
+                  FireSwitch Tech is a foremost technology company commited to solving common business problems using digital technology.
                   </p>
                 </div>
 
-                <hr class="clearfix w-100 d-md-none" />
-
-                <div class="col-md-2 mx-auto">
+                <div class="col-md-2 mx-auto hide">
                   <h5 class=" text-uppercase mt-3 mb-4">Links</h5>
 
                   <ul class="list-unstyled ">
@@ -52,8 +48,6 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-
-                <hr class="clearfix w-100 d-md-none" />
 
                 <div class="col-md-4">
                   <div class="text-center py-2">
