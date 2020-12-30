@@ -1,5 +1,6 @@
 {
   "name": "fireswitch",
+  "homepage": "https://omoluabii.github.io/FS",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
