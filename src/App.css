@@ -195,6 +195,55 @@ font-weight: 500;
 /* Who We Are */
 
 
+
+/* Ask A Question */
+
+.askaq {
+  background-color: #ffffff;
+
+}
+
+.askaq .container {
+  background-color: #ff9a41;
+  padding: 2rem;
+}
+ 
+.askaq input {
+  
+  border: 1px solid #323982;
+}
+.askaq textarea {
+  
+  border: 1px solid #fff!important;
+  border-radius: 5px;
+}
+
+
+.askaq input::placeholder {
+  
+  color: #323982;
+}
+
+.askaq textarea::placeholder {
+  
+  color: #323982;
+}
+
+.askaq h4{
+  color: #323982;
+}
+
+.askaq button{
+  background-color: #323982d8!important;
+  color: #ff9a41!important;
+  font-weight: 700!important;
+  
+}
+
+/* Ask A Question */
+
+
+
 /* Enrol Formm */
 .enrolform {
   background-color: #ffffff;
@@ -207,13 +256,9 @@ font-weight: 500;
   padding: 2rem;
 }
  
-.enrolform input {
-  
-  border: 1px solid #323982;
-}
 .enrolform textarea {
   
-  border: 1px solid #fff!important;
+ 
   border-radius: 5px;
 }
 
@@ -236,6 +281,7 @@ font-weight: 500;
   background-color: #323982d8!important;
   color: #ff9a41!important;
   font-weight: 700!important;
+
   
 }
 
