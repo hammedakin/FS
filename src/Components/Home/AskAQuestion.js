@@ -24,7 +24,7 @@ const AskAQuestion = (props) => {
          <div class="">
          <form>
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <div class="input-group mb-4">
                     <input
                       type="text"
