@@ -10,16 +10,18 @@ const AskAQuestion = (props) => {
 
     return (
         <Modal show={props.show} onHide={props.onHide}>
-            {/* <Modal.Header closeButton>
-                <h5 class="container text-center">ASK A QUESTION</h5>
-            </Modal.Header> */}
-            <Modal.Body style={{backgroundColor: "transparent"}}>
+            <Modal.Header closeButton>
+            </Modal.Header>
+            <Modal.Body style={{backgroundColor: "transparent!important"}}
+            >   
+      
 
 
  <section class="askaq ">
      <div class="container shadow hoverable">
          <div class="text-center mb-5">
              <h4> ASK A QUESTION </h4>
+          
          </div>
          <div class="">
          <form>
@@ -92,7 +94,8 @@ const AskAQuestion = (props) => {
      </div>
  </section>
             </Modal.Body>
-           
+            <Modal.Header closeButton style={{textAlign: "center!important"}}>
+            </Modal.Header>
         </Modal>
 
     );
