@@ -1,6 +1,44 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+import axios from 'axios'
 
 const ContactUs = () => {
+
+const [name, setname] = useState('')
+const [email, setemail] = useState('')
+const [message, setmessage] = useState('')
+const [apptoken, setapptoken] = useState(process.env.REACT_APP_APPTOKEN)
+const [endpoint, setendpoint] = useState(process.env.REACT_APP_ENDPOINT)
+
+  const contactUs = (e) => {
+
+    const data ={
+      apptoken:apptoken,
+      action:'01',
+      name:name,
+      mail:email,
+      message:message
+    }
+    axios
+    .get(
+      `${endpoint}/`,{
+        params:data
+})
+.then((res) => {
+console.log(res.data);
+      if(res.data.response==data.action){
+     console.log(res.data.message)
+    }else{
+   console.log(res.data.message)
+    }
+    })
+    .catch((error) => {
+   console.log(error.name)
+   
+    });
+
+e.preventDefault();
+  }
+
   return (
     <>
       <section class="contact">
@@ -85,8 +123,7 @@ const ContactUs = () => {
                   <div class="card-body px-lg-5 pt-0">
                     <form
                       class="text-center"
-                      style={{ color: "757575" }}
-                      action="#!"
+                      // onSubmit={e=>contactUs(e)}
                     >
                       <div class="md-form mt-3">
                         <input
@@ -94,6 +131,8 @@ const ContactUs = () => {
                           id="materialContactFormName"
                           class="form-control"
                           placeholder="Name"
+                          onChange={e => setname(e.target.value)}
+                          value={name}
                         />
                       </div>
 
@@ -102,7 +141,10 @@ const ContactUs = () => {
                           type="email"
                           id="materialContactFormEmail"
                           class="form-control"
-                          placeholder="E-mail"
+                          placeholder="Email"
+                          onChange={e => setemail(e.target.value)}
+                          value={email}
+
                         />
                       </div>
 
@@ -112,12 +154,15 @@ const ContactUs = () => {
                           class="form-control md-textarea"
                           rows="4"
                           placeholder="Message"
+                          onChange={e => setmessage(e.target.value)}
+                          value={message}
+
                         ></textarea>
                       </div>
 
                       <button
                         class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect"
-                        type="submit"
+                       onClick={e => contactUs (e)}
                       >
                         Send
                       </button>

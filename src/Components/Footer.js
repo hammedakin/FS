@@ -1,8 +1,42 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+import axios from 'axios'
 import img from "./FS_logo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+
+  const [email, setemail] = useState('')
+  const [apptoken, setapptoken] = useState(process.env.REACT_APP_APPTOKEN)
+  const [endpoint, setendpoint] = useState(process.env.REACT_APP_ENDPOINT)
+  
+    const subscribe = (e) => {
+  
+      const data ={
+        apptoken:apptoken,
+        action:'03',
+        mail:email,
+      }
+      axios
+      .get(
+        `${endpoint}/`,{
+          params:data
+  })
+  .then((res) => {
+  console.log(res.data);
+        if(res.data.response==data.action){
+       console.log(res.data.message)
+      }else{
+     console.log(res.data.message)
+      }
+      })
+      .catch((error) => {
+     console.log(error.name)
+     
+      });
+  
+  e.preventDefault();
+    }
+  
   return (
     <div>
       <section class="footer">
@@ -58,12 +92,17 @@ const Footer = () => {
                           <input
                             type="email"
                             class="form-control"
-                            id="inputEmail3MD"
+                            id="materialContactFormEmail"
                             placeholder="Email"
+                            onChange={e => setemail(e.target.value)}
+                            value={email}
                           />
                         </div>
                       </div>
-                      <button type="submit" class="btn btn-lg">
+                      <button class="btn btn-lg"
+                       onClick={e => subscribe (e)}
+                      
+                      >
                         SUBMIT
                       </button>
 

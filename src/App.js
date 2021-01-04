@@ -8,6 +8,7 @@ import ContactPage from './Pages/ContactPage';
 import EnrolForm from './Components/Academy/EnrolForm';
 import ProductPage from './Pages/ProductPage';
 import PortfolioPage from './Pages/PortfolioPage';
+import PageNotFound from './PageNotFound';
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
       <Route exact path="/product" component={ProductPage}/>
 
       <Route exact path="/portfolio" component={PortfolioPage}/>
+
+      <Route exact path="*" component={PageNotFound}/>
       </Switch>
     
     </BrowserRouter>
