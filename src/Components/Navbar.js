@@ -17,7 +17,7 @@ const Navbar = () => {
     if (prevScrollpos > currentScrollPos) {
       document.getElementById("navbar").style.top = "0";
     } else {
-      document.getElementById("navbar").style.top = "-60px";
+      document.getElementById("navbar").style.top = "-200px";
     }
     prevScrollpos = currentScrollPos;
   }
@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
-        <Link to="/" className="navbar-brand">
+        <Link to="/home" className="navbar-brand">
           <img src={img} width="50%" alt="FireSwitch_logo" loading="lazy" />
         </Link>
 
@@ -59,7 +59,7 @@ const Navbar = () => {
 
 
             <li class="nav-item">
-              <NavLink tag={Link} activeClassName="active1" to="/" >
+              <NavLink tag={Link} activeClassName="active1" to="/home" >
                 HOME
               </NavLink>
             </li>
@@ -91,7 +91,7 @@ const Navbar = () => {
             <li>
               <button type="button" class="btn"
                 onClick={handleShowAAQ}
-                class="btn px-5 mx-auto shadow"
+                class="btn px-3 mx-auto shadow"
               >
                 Ask Question ?
           </button>
