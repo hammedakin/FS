@@ -6,6 +6,7 @@ import Team from '../Components/Home/Team.js'
 import Footer from '../Components/Footer'
 import WhoWeAre from '../Components/Home/WhoWeAre';
 import SocialMedia from '../Components/Home/SocialMedia';
+import GetInTouch from '../Components/Home/GetInTouch';
 
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
     <WhoWeAre/>
     <Team/>
     <SocialMedia/>
+    <GetInTouch/>
     <Footer/>
     
    

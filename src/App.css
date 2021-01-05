@@ -116,6 +116,18 @@ nav button {
 /* Navbar */
 
 
+/* Page Not Found */
+
+.pagenotfound .aaa {
+  margin-top: 7rem;
+  text-align: center;
+  align-self: center;
+  justify-content: center!important;
+  }
+
+
+/* Page Not Found */
+
 
 /* Showcase */
 .showcase {
@@ -259,6 +271,18 @@ font-weight: 500;
 }
 
 /* Who We Are */
+
+
+/* Get In Touch */
+.getintouch {
+  background:linear-gradient( #000000,#00000065),url(https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+/* background-repeat: no-repeat; */
+background-size: cover;  
+padding: 3rem 0;
+text-align: center;
+color: #f5f3f3;
+}
+/* Get In Touch */
 
 
 
@@ -551,7 +575,10 @@ footer .box-icon:hover {
 
   /* Navbar */
   nav .navbar-brand {
-    width: 40%!important;
+    width: 15rem!important;
+  }
+  nav .navbar-brand img{
+    width: 12rem!important;
   }
   
   /* Navbar */
