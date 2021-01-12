@@ -21,7 +21,7 @@ const Team = () => {
             <div class="">
             <div class="row row-cols-2 row-cols-sm-6 row-cols-md-4">
               <div class="col mb-4">
-                <div class="card">
+                <div class="card h-100">
                   <div class="card-body">
                     <img
                     src={img1}
@@ -38,7 +38,7 @@ const Team = () => {
                 </div>
               </div>
               <div class="col mb-4">
-                <div class="card">
+                <div class="card h-100">
                   <div class="card-body">
                     <img
 src={img3}
@@ -54,7 +54,7 @@ src={img3}
                 </div>
               </div>
               <div class="col mb-4">
-                <div class="card">
+                <div class="card h-100">
                   <div class="card-body">
                     <img
 src={img2}
@@ -70,7 +70,7 @@ src={img2}
                 </div>
               </div>
               <div class="col mb-4">
-                <div class="card">
+                <div class="card h-100">
                   <div class="card-body">
                     <img
 src={img4}                      

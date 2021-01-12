@@ -12,7 +12,7 @@ const PortfolioShowcase = () => {
 
                 <p>
                   {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in pellentesque lectus. Nam ac convallis odio. Fusce nulla elit, iaculi sex. 
+               
                 </p>
                 <p>
                

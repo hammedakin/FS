@@ -282,6 +282,15 @@ padding: 3rem 0;
 text-align: center;
 color: #f5f3f3;
 }
+
+.getintouch button {
+background-color: #323982c4!important;
+}
+.getintouch button a {
+  color: #ff9a41!important;
+  }
+
+
 /* Get In Touch */
 
 
@@ -397,10 +406,33 @@ font-size: 15px;
 
 .portfolio .card .row{
   align-items: center!important;
-  background-color: #ff9a41;
+  /* background-color: #ff9a41; */
   border: 0!important;
   border-radius: 30px 0 30px 0 ;
+  justify-content: center!important;
 }
+
+/* Portfolio BG Color */
+.portfolio .card .row.tolu{
+  background-color: rgba(34, 34, 34, 0.91);
+}
+.portfolio .card .row.eclipse{
+  background-color: #008000e8;
+}
+.portfolio .card .row.rice{
+  background-color: #771b1be8;
+}
+.portfolio .card .row.cla{
+  background-color: #ccc8c8ea;
+}
+.portfolio .card .row.divine{
+  background-color: #030d3ae8;
+}
+.portfolio .card .row.tolu{
+  background-color: #222222e8;
+}
+
+/* Portfolio BG Color */
 
 
 .portfolio .card .col-md-6.col1{
@@ -408,9 +440,10 @@ padding: 0;
 }
 
 .portfolio .col-md-6.col2 {
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
   background-color: white;
   border-radius: 0px 0 25px 0 ;
+  height: 150%!important;
 }
 /* Portfolio */
 

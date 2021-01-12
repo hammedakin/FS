@@ -11,7 +11,7 @@ const GetInTouch = () => {
  </h4>
 <h6> We are ready to bring your ideas to life</h6>
 
-<button class="btn"> <Link to="/contact"> GET IN TOUCH </Link> </button> 
+<button class="btn animated  zoomIn infinite slower"> <Link to="/contact"> GET IN TOUCH </Link> </button> 
     </div>
 </section>
 
